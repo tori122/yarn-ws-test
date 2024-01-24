@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "yarn-ws-test",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "apps/cool-app",
+      "apps/nice-app",
+      "packages/nice-package"
+    ]
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-typescript": "^7.23.3",
+    "@manypkg/cli": "^0.21.2",
+    "@preconstruct/cli": "^2.8.3",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/jest": "^29.5.11",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-ft-flow": "^3.0.2",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
